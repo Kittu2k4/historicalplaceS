@@ -1,0 +1,186 @@
+h1 {
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 60px;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+  }
+
+  nav {
+    padding-top: 75px;
+  }
+
+  .animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        #6b43ff 0%,
+        rgb(0, 0, 0) 29%,
+        #ff0055 67%,
+        rgb(255, 162, 0) 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+
+    font-size: 190px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: #6c6262;
+    color: white;
+    border-radius: 20px;
+
+  }
+
+  ul li {
+    align-items: center;
+    list-style: none;
+    margin: 10px 0px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    align-items: center;
+    margin: 100px;
+    color: rgb(255, 255, 255);
+  }
+
+  ul li :hover {
+    color: rgb(255, 238, 238);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255)
+  }
+
+  .card {
+    z-index: 0;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #a1 {
+    margin: 9px 3px;
+  }
+
+  #b234 {
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    position: fixed;
+    bottom: 27px;
+    right: 10px;
+  }
+
+  #b234 i {
+    margin: 17px;
+  }
+
+  a #b234:hover {
+    background-color: rgb(73, 69, 70);
+
+  }
+
+  #b235 {
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    position: fixed;
+    bottom: 27px;
+    right: 70px;
+  }
+
+  #b235 i {
+    margin-top: 17px;
+  }
+
+  a #b235:hover {
+    background-color: dimgrey;
+
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+    background-color: darkgrey;
+    border-radius: 20px;
+    padding-bottom: 30px;
+  }
+
+  ol li {
+    list-style: none;
+    padding: 6px;
+  }
+
+  ol a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(34, 33, 33);
+
+    margin-right: 20px;
+
+  }
+
+  .b1 {
+    cursor: pointer;
+
+  }
+
+  #aaa {
+    text-align: center;
+
+  }
+
+  ul li a :active,
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+
+  footer {
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+  }
+
+  ol li a:hover {
+    color: #dde0e3;
+  }
